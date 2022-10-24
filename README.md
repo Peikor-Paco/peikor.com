@@ -5,10 +5,10 @@
 // The toolkit uses recommendations from Scalable and Modular Architecture for CSS (SMACSS)
 // @link http://smacss.com/book
 //
-// Site:    WebOk3
-// Author:  Francisco Moren López
+// Site:    Peikor.com
+// Author:  Francisco Moreno López
 // Email:   morenolopezfr@gmail.com
-// Date:    28/05/22
+// Date:    20/10/22
 // ==========================================================================
 
 ## Technologies
