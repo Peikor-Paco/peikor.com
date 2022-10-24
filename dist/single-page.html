@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="/img/logos/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/logos/favicon.ico" type="image/x-icon">
+    <title>Single page</title>
+
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="d-flex w-100">
+                <h1 class="header__title fw-bold">Una gran web para pequeñas empresas</h1>
+                <div class="fw-bold mx-auto d-none d-lg-flex align-items-center justify-content-center text-center w-50
+          ">Tel: <a class="header__link ms-2" href="tel:+34977130818">977 13 08 18</a></div>
+                <div class="ms-auto d-none d-lg-flex align-items-center">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a class="header__icon" href=""><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 7.5C15 3.35786 11.6421 0 7.5 0C3.35786 0 0 3.35786 0 7.5C0 11.2434 2.74263 14.3462 6.32812 14.9089V9.66797H4.42383V7.5H6.32812V5.84766C6.32812 3.96797 7.44785 2.92969 9.16099 2.92969C9.9813 2.92969 10.8398 3.07617 10.8398 3.07617V4.92188H9.89414C8.9625 4.92188 8.67188 5.50005 8.67188 6.09375V7.5H10.752L10.4194 9.66797H8.67188V14.9089C12.2574 14.3462 15 11.2434 15 7.5Z" fill="#1E2B70" />
+                                </svg></a></li>
+                        <li class="list-inline-item"><a class="header__icon" href=""><svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.03168 12.5942C11.0694 12.5942 14.3718 7.90456 14.3718 3.83776C14.3718 3.70456 14.3718 3.57196 14.3622 3.43996C15.0047 3.00431 15.5593 2.46489 16 1.84696C15.4009 2.09597 14.7654 2.25919 14.1146 2.33116C14.7999 1.94659 15.3128 1.34165 15.5578 0.628964C14.9134 0.987469 14.2084 1.24011 13.4733 1.37596C12.9783 0.882575 12.3237 0.555865 11.6108 0.446392C10.8978 0.336919 10.1663 0.450786 9.52931 0.770372C8.89234 1.08996 8.38548 1.59745 8.08716 2.21431C7.78884 2.83117 7.71569 3.523 7.87904 4.18276C6.57393 4.12139 5.29717 3.80341 4.13164 3.24947C2.9661 2.69553 1.93784 1.918 1.1136 0.967364C0.693819 1.64486 0.565248 2.44688 0.754066 3.21013C0.942885 3.97337 1.43489 4.64046 2.12992 5.07556C1.60749 5.06121 1.09643 4.92909 0.64 4.69036V4.72936C0.640207 5.4399 0.902567 6.12849 1.38258 6.67834C1.86259 7.2282 2.53071 7.60547 3.2736 7.74616C2.79032 7.86975 2.28325 7.88781 1.79136 7.79896C2.00121 8.41042 2.40962 8.94511 2.95949 9.3283C3.50937 9.71149 4.17322 9.92401 4.85824 9.93616C4.17763 10.4377 3.39821 10.8085 2.56458 11.0274C1.73096 11.2463 0.859476 11.3089 0 11.2118C1.50122 12.1149 3.24795 12.594 5.03168 12.5918" fill="#1E2B70" />
+                                </svg>
+                            </a></li>
+                        <li class="list-inline-item"><a class="header__icon" href=""><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.5 1.35059C9.50391 1.35059 9.74121 1.35937 10.5293 1.39453C11.2617 1.42676 11.6572 1.5498 11.9209 1.65234C12.2695 1.78711 12.5215 1.95117 12.7822 2.21191C13.0459 2.47559 13.207 2.72461 13.3418 3.07324C13.4443 3.33691 13.5674 3.73535 13.5996 4.46484C13.6348 5.25586 13.6436 5.49316 13.6436 7.49414C13.6436 9.49805 13.6348 9.73535 13.5996 10.5234C13.5674 11.2559 13.4443 11.6514 13.3418 11.915C13.207 12.2637 13.043 12.5156 12.7822 12.7764C12.5186 13.04 12.2695 13.2012 11.9209 13.3359C11.6572 13.4385 11.2588 13.5615 10.5293 13.5938C9.73828 13.6289 9.50098 13.6377 7.5 13.6377C5.49609 13.6377 5.25879 13.6289 4.4707 13.5938C3.73828 13.5615 3.34277 13.4385 3.0791 13.3359C2.73047 13.2012 2.47852 13.0371 2.21777 12.7764C1.9541 12.5127 1.79297 12.2637 1.6582 11.915C1.55566 11.6514 1.43262 11.2529 1.40039 10.5234C1.36523 9.73242 1.35645 9.49512 1.35645 7.49414C1.35645 5.49023 1.36523 5.25293 1.40039 4.46484C1.43262 3.73242 1.55566 3.33691 1.6582 3.07324C1.79297 2.72461 1.95703 2.47266 2.21777 2.21191C2.48145 1.94824 2.73047 1.78711 3.0791 1.65234C3.34277 1.5498 3.74121 1.42676 4.4707 1.39453C5.25879 1.35937 5.49609 1.35059 7.5 1.35059ZM7.5 0C5.46387 0 5.20898 0.00878906 4.40918 0.0439453C3.6123 0.0791016 3.06445 0.208008 2.58984 0.392578C2.09473 0.585937 1.67578 0.84082 1.25977 1.25977C0.84082 1.67578 0.585938 2.09473 0.392578 2.58691C0.208008 3.06445 0.0791016 3.60937 0.0439453 4.40625C0.00878906 5.20898 0 5.46387 0 7.5C0 9.53613 0.00878906 9.79102 0.0439453 10.5908C0.0791016 11.3877 0.208008 11.9355 0.392578 12.4102C0.585938 12.9053 0.84082 13.3242 1.25977 13.7402C1.67578 14.1562 2.09473 14.4141 2.58691 14.6045C3.06445 14.7891 3.60938 14.918 4.40625 14.9531C5.20605 14.9883 5.46094 14.9971 7.49707 14.9971C9.5332 14.9971 9.78809 14.9883 10.5879 14.9531C11.3848 14.918 11.9326 14.7891 12.4072 14.6045C12.8994 14.4141 13.3184 14.1562 13.7344 13.7402C14.1504 13.3242 14.4082 12.9053 14.5986 12.4131C14.7832 11.9355 14.9121 11.3906 14.9473 10.5938C14.9824 9.79395 14.9912 9.53906 14.9912 7.50293C14.9912 5.4668 14.9824 5.21191 14.9473 4.41211C14.9121 3.61523 14.7832 3.06738 14.5986 2.59277C14.4141 2.09473 14.1592 1.67578 13.7402 1.25977C13.3242 0.84375 12.9053 0.585938 12.4131 0.395508C11.9355 0.210937 11.3906 0.0820312 10.5938 0.046875C9.79102 0.00878907 9.53613 0 7.5 0Z" fill="#1E2B70" />
+                                    <path d="M7.5 3.64746C5.37305 3.64746 3.64746 5.37305 3.64746 7.5C3.64746 9.62695 5.37305 11.3525 7.5 11.3525C9.62695 11.3525 11.3525 9.62695 11.3525 7.5C11.3525 5.37305 9.62695 3.64746 7.5 3.64746ZM7.5 9.99902C6.12012 9.99902 5.00098 8.87988 5.00098 7.5C5.00098 6.12012 6.12012 5.00098 7.5 5.00098C8.87988 5.00098 9.99902 6.12012 9.99902 7.5C9.99902 8.87988 8.87988 9.99902 7.5 9.99902Z" fill="#1E2B70" />
+                                    <path d="M12.4043 3.49512C12.4043 3.99317 12 4.39453 11.5049 4.39453C11.0068 4.39453 10.6055 3.99024 10.6055 3.49512C10.6055 2.99707 11.0098 2.5957 11.5049 2.5957C12 2.5957 12.4043 3 12.4043 3.49512Z" fill="#1E2B70" />
+                                </svg>
+                            </a></li>
+                    </ul>
+                    <ul class="list-inline ms-4 mb-0">
+                        <li class="list-inline-item"><a class="header__link active" class="header__icon" href="">ES</a></li>
+                        <li class="list-inline-item"><a class="header__link" class="header__icon" href="">ENG</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="navbar-logo" src="img/webok-logo.svg" alt="" width="154" height="61">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse py-4 py-lg-0 " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            CARACTERÍSTICAS
+                            <i data-eva="arrow-downward" data-eva-height="14" data-eva-width="14" class="ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="archive-blog.html">NOTICIAS</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">CATÁLOGO</a></li>
+                            <li><a class="dropdown-item" href="single-page.html">IDIOMAS</a></li>
+                            <li><a class="dropdown-item" href="#">APPS ESPECIALES</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            MÓDULOS Y OPCIONES
+                            <i data-eva="arrow-downward" data-eva-height="14" data-eva-width="14" class="ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="archive-blog.html">NOTICIAS</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">CATÁLOGO</a></li>
+                            <li><a class="dropdown-item" href="single-page.html">IDIOMAS</a></li>
+                            <li><a class="dropdown-item" href="#">APPS ESPECIALES</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SERVICIOS
+                            <i data-eva="arrow-downward" data-eva-height="14" data-eva-width="14" class="ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="archive-blog.html">NOTICIAS</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">CATÁLOGO</a></li>
+                            <li><a class="dropdown-item" href="single-page.html">IDIOMAS</a></li>
+                            <li><a class="dropdown-item" href="#">APPS ESPECIALES</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="typography.html">QUIENES SOMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="archive-blog.html">NOTICIAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACTO</a>
+                    </li>
+                </ul>
+                <div class="ms-auto d-lg-none align-items-center">
+                    <ul class="list-inline mb-0 mt-4">
+                        <li class="list-inline-item"><a class="header__link active" href="">ES</a></li>
+                        <li class="list-inline-item"><a class="header__link" href="">ENG</a></li>
+                    </ul>
+                    <ul class="list-inline mb-0 mt-3">
+                        <li class="list-inline-item"><a href=""><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 7.5C15 3.35786 11.6421 0 7.5 0C3.35786 0 0 3.35786 0 7.5C0 11.2434 2.74263 14.3462 6.32812 14.9089V9.66797H4.42383V7.5H6.32812V5.84766C6.32812 3.96797 7.44785 2.92969 9.16099 2.92969C9.9813 2.92969 10.8398 3.07617 10.8398 3.07617V4.92188H9.89414C8.9625 4.92188 8.67188 5.50005 8.67188 6.09375V7.5H10.752L10.4194 9.66797H8.67188V14.9089C12.2574 14.3462 15 11.2434 15 7.5Z" fill="#1E2B70" />
+                                </svg></a></li>
+                        <li class="list-inline-item"><a href=""><svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.03168 12.5942C11.0694 12.5942 14.3718 7.90456 14.3718 3.83776C14.3718 3.70456 14.3718 3.57196 14.3622 3.43996C15.0047 3.00431 15.5593 2.46489 16 1.84696C15.4009 2.09597 14.7654 2.25919 14.1146 2.33116C14.7999 1.94659 15.3128 1.34165 15.5578 0.628964C14.9134 0.987469 14.2084 1.24011 13.4733 1.37596C12.9783 0.882575 12.3237 0.555865 11.6108 0.446392C10.8978 0.336919 10.1663 0.450786 9.52931 0.770372C8.89234 1.08996 8.38548 1.59745 8.08716 2.21431C7.78884 2.83117 7.71569 3.523 7.87904 4.18276C6.57393 4.12139 5.29717 3.80341 4.13164 3.24947C2.9661 2.69553 1.93784 1.918 1.1136 0.967364C0.693819 1.64486 0.565248 2.44688 0.754066 3.21013C0.942885 3.97337 1.43489 4.64046 2.12992 5.07556C1.60749 5.06121 1.09643 4.92909 0.64 4.69036V4.72936C0.640207 5.4399 0.902567 6.12849 1.38258 6.67834C1.86259 7.2282 2.53071 7.60547 3.2736 7.74616C2.79032 7.86975 2.28325 7.88781 1.79136 7.79896C2.00121 8.41042 2.40962 8.94511 2.95949 9.3283C3.50937 9.71149 4.17322 9.92401 4.85824 9.93616C4.17763 10.4377 3.39821 10.8085 2.56458 11.0274C1.73096 11.2463 0.859476 11.3089 0 11.2118C1.50122 12.1149 3.24795 12.594 5.03168 12.5918" fill="#1E2B70" />
+                                </svg>
+                            </a></li>
+                        <li class="list-inline-item"><a href=""><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.5 1.35059C9.50391 1.35059 9.74121 1.35937 10.5293 1.39453C11.2617 1.42676 11.6572 1.5498 11.9209 1.65234C12.2695 1.78711 12.5215 1.95117 12.7822 2.21191C13.0459 2.47559 13.207 2.72461 13.3418 3.07324C13.4443 3.33691 13.5674 3.73535 13.5996 4.46484C13.6348 5.25586 13.6436 5.49316 13.6436 7.49414C13.6436 9.49805 13.6348 9.73535 13.5996 10.5234C13.5674 11.2559 13.4443 11.6514 13.3418 11.915C13.207 12.2637 13.043 12.5156 12.7822 12.7764C12.5186 13.04 12.2695 13.2012 11.9209 13.3359C11.6572 13.4385 11.2588 13.5615 10.5293 13.5938C9.73828 13.6289 9.50098 13.6377 7.5 13.6377C5.49609 13.6377 5.25879 13.6289 4.4707 13.5938C3.73828 13.5615 3.34277 13.4385 3.0791 13.3359C2.73047 13.2012 2.47852 13.0371 2.21777 12.7764C1.9541 12.5127 1.79297 12.2637 1.6582 11.915C1.55566 11.6514 1.43262 11.2529 1.40039 10.5234C1.36523 9.73242 1.35645 9.49512 1.35645 7.49414C1.35645 5.49023 1.36523 5.25293 1.40039 4.46484C1.43262 3.73242 1.55566 3.33691 1.6582 3.07324C1.79297 2.72461 1.95703 2.47266 2.21777 2.21191C2.48145 1.94824 2.73047 1.78711 3.0791 1.65234C3.34277 1.5498 3.74121 1.42676 4.4707 1.39453C5.25879 1.35937 5.49609 1.35059 7.5 1.35059ZM7.5 0C5.46387 0 5.20898 0.00878906 4.40918 0.0439453C3.6123 0.0791016 3.06445 0.208008 2.58984 0.392578C2.09473 0.585937 1.67578 0.84082 1.25977 1.25977C0.84082 1.67578 0.585938 2.09473 0.392578 2.58691C0.208008 3.06445 0.0791016 3.60937 0.0439453 4.40625C0.00878906 5.20898 0 5.46387 0 7.5C0 9.53613 0.00878906 9.79102 0.0439453 10.5908C0.0791016 11.3877 0.208008 11.9355 0.392578 12.4102C0.585938 12.9053 0.84082 13.3242 1.25977 13.7402C1.67578 14.1562 2.09473 14.4141 2.58691 14.6045C3.06445 14.7891 3.60938 14.918 4.40625 14.9531C5.20605 14.9883 5.46094 14.9971 7.49707 14.9971C9.5332 14.9971 9.78809 14.9883 10.5879 14.9531C11.3848 14.918 11.9326 14.7891 12.4072 14.6045C12.8994 14.4141 13.3184 14.1562 13.7344 13.7402C14.1504 13.3242 14.4082 12.9053 14.5986 12.4131C14.7832 11.9355 14.9121 11.3906 14.9473 10.5938C14.9824 9.79395 14.9912 9.53906 14.9912 7.50293C14.9912 5.4668 14.9824 5.21191 14.9473 4.41211C14.9121 3.61523 14.7832 3.06738 14.5986 2.59277C14.4141 2.09473 14.1592 1.67578 13.7402 1.25977C13.3242 0.84375 12.9053 0.585938 12.4131 0.395508C11.9355 0.210937 11.3906 0.0820312 10.5938 0.046875C9.79102 0.00878907 9.53613 0 7.5 0Z" fill="#1E2B70" />
+                                    <path d="M7.5 3.64746C5.37305 3.64746 3.64746 5.37305 3.64746 7.5C3.64746 9.62695 5.37305 11.3525 7.5 11.3525C9.62695 11.3525 11.3525 9.62695 11.3525 7.5C11.3525 5.37305 9.62695 3.64746 7.5 3.64746ZM7.5 9.99902C6.12012 9.99902 5.00098 8.87988 5.00098 7.5C5.00098 6.12012 6.12012 5.00098 7.5 5.00098C8.87988 5.00098 9.99902 6.12012 9.99902 7.5C9.99902 8.87988 8.87988 9.99902 7.5 9.99902Z" fill="#1E2B70" />
+                                    <path d="M12.4043 3.49512C12.4043 3.99317 12 4.39453 11.5049 4.39453C11.0068 4.39453 10.6055 3.99024 10.6055 3.49512C10.6055 2.99707 11.0098 2.5957 11.5049 2.5957C12 2.5957 12.4043 3 12.4043 3.49512Z" fill="#1E2B70" />
+                                </svg>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="fw-bold d-lg-none mt-3">Tel: <a class="header__link ms-2" href="tel:+34977130818">977 13 08 18</a></div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero mx-auto">
+        <div class="container">
+            <div class="hero__content row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero__body">
+                        <h2 class="hero__title">Packs posicionamiento web</h2>
+                        <p class="hero__text fw-bold">
+                            Si quieres tener presencia destacada en Internet sin una gran inversión, esta es tu mejor opción.
+                        </p>
+                        <a class="hero__btn btn btn-primary" href="#">Contactar</a>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div id="webOkCarosuel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#webOkCarosuel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#webOkCarosuel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#webOkCarosuel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="text-center carousel-inner mx-auto">
+                            <div class="carousel-item active">
+                                <img src="img/values.webp" width="606" height="472" class="img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/values.webp" width="606" height="472" class="img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/values.webp" width="606" height="472" class="img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container post mt-5">
+        <div class="row">
+            <main class="col-lg-8 pe-5">
+                <h1 class="post__title">Título del post</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                </p>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rhoncus euismod elit egestas tempor. Ut
+                    faucibus ex convallis semper tincidunt.</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                </p>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                    survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                    passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+                    Lorem Ipsum.</p>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                    survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                    passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+                    Lorem Ipsum.</p>
+            </main>
+            <aside class="col-lg-4">
+                <section class="services services--vertical">
+
+                    <div class="services__col">
+                        <article class="card-services">
+                            <div class="card-services__icon">
+                                <i data-eva="layers" data-eva-height="50" data-eva-width="50"></i>
+                            </div>
+                            <h3 class="card-services__title fw-bold">
+                                Página web
+                            </h3>
+                            <p class="card-services__subtitle">
+                                Web Profesional Low Cost
+                            </p>
+                            <h2 class="card-services__price fw-bold">360,00€</h2>
+                        </article>
+                    </div>
+                    <div class="services__col">
+                        <article class="card-services">
+                            <div class="card-services__icon">
+                                <i data-eva="message-circle" data-eva-height="50" data-eva-width="50"></i>
+                            </div>
+                            <h3 class="card-services__title fw-bold">
+                                Página web
+                            </h3>
+                            <p class="card-services__subtitle">
+                                Web Profesional Low Cost
+                            </p>
+                            <h2 class="card-services__price fw-bold">250,00€</h2>
+                        </article>
+                    </div>
+                </section>
+            </aside>
+        </div>
+    </div>
+    <section class="gallery">
+        <div class="container">
+            <h2 class="gallery__title">
+                Galería
+            </h2>
+            <div class="row gallery__list">
+                <div class="gallery__item col-6 col-lg-3"><img src="img/gallery.webp" class="gallery__img img-fluid" loading="lazy" width="315" height="315" alt=""></div>
+                <div class="gallery__item col-6 col-lg-3"><img src="img/gallery-2.webp" class="gallery__img img-fluid" loading="lazy" width="315" height="315" alt=""></div>
+                <div class="gallery__item col-6 col-lg-3"><img src="img/gallery.webp" class="gallery__img img-fluid" loading="lazy" width="315" height="315" alt=""></div>
+                <div class="gallery__item col-6 col-lg-3"><img src="img/gallery-2.webp" class="gallery__img img-fluid" loading="lazy" width="315" height="315" alt=""></div>
+                <div class="gallery__item col-6 col-lg-3"><img src="img/gallery.webp" class="gallery__img img-fluid" loading="lazy" width="315" height="315" alt=""></div>
+                <div class="gallery__item col-6 col-lg-3"><img src="img/gallery.webp" class="gallery__img img-fluid" loading="lazy" width="315" height="315" alt=""></div>
+                <div class="gallery__item col-6 col-lg-3"><img src="img/gallery.webp" class="gallery__img img-fluid" loading="lazy" width="315" height="315" alt=""></div>
+                <div class="gallery__item col-6 col-lg-3"><img src="img/gallery.webp" class="gallery__img img-fluid" loading="lazy" width="315" height="315" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2"><img class="footer__logo" loading="lazy" src="img/webok-logo.svg" alt="" width="112" height="44"></div>
+                <div class="col-lg-4 mt-3 mt-lg-0">
+                    <p class="fw-bold mb-0">Una gran web para pequeñas empresas</p>
+                    <p class="mb-0 mt-1">WebOK Multimedia <br />
+                        C/Crisantem 5 43830 Torredembarra Tarragona<br />
+                        Tel: <a class="footer__link" href="tel:+34977130818">977 13 08 18</a><br />
+                        <a class="footer__link" href="mailto:info@webok.es">info@webok.es</a>
+                    </p>
+                </div>
+                <div class="col-lg-3 mt-4 mt-lg-0">
+                    <ul class="list-unstyled mb-0">
+                        <li class="footer__item"><a class="footer__link" href="index.html">INICIO</a></li>
+                        <li class="footer__item"><a class="footer__link" href="gallery.html">CARACTERÍSTICAS</a></li>
+                        <li class="footer__item"><a class="footer__link" href="">MÓDULOS Y OPCIONES</a></li>
+                        <li class="footer__item"><a class="footer__link" href="">SERVICIOS</a></li>
+                        <li class="footer__item"><a class="footer__link" href="typography.html">QUIENES SOMOS</a></li>
+                        <li class="footer__item"><a class="footer__link" href="archive-blog.html">NOTICIAS</a></li>
+                        <li class="footer__item"><a class="footer__link" href="contact.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mt-4 mt-lg-0">
+                    <p class="fw-bold">Síguenos en:</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="footer__icon" href=""><svg width="30" height="30" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 7.5C15 3.35786 11.6421 0 7.5 0C3.35786 0 0 3.35786 0 7.5C0 11.2434 2.74263 14.3462 6.32812 14.9089V9.66797H4.42383V7.5H6.32812V5.84766C6.32812 3.96797 7.44785 2.92969 9.16099 2.92969C9.9813 2.92969 10.8398 3.07617 10.8398 3.07617V4.92188H9.89414C8.9625 4.92188 8.67188 5.50005 8.67188 6.09375V7.5H10.752L10.4194 9.66797H8.67188V14.9089C12.2574 14.3462 15 11.2434 15 7.5Z" fill="#1E2B70" />
+                                </svg></a></li>
+                        <li class="list-inline-item ms-3"><a class="footer__icon" href=""><svg width="30" height="23" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.03168 12.5942C11.0694 12.5942 14.3718 7.90456 14.3718 3.83776C14.3718 3.70456 14.3718 3.57196 14.3622 3.43996C15.0047 3.00431 15.5593 2.46489 16 1.84696C15.4009 2.09597 14.7654 2.25919 14.1146 2.33116C14.7999 1.94659 15.3128 1.34165 15.5578 0.628964C14.9134 0.987469 14.2084 1.24011 13.4733 1.37596C12.9783 0.882575 12.3237 0.555865 11.6108 0.446392C10.8978 0.336919 10.1663 0.450786 9.52931 0.770372C8.89234 1.08996 8.38548 1.59745 8.08716 2.21431C7.78884 2.83117 7.71569 3.523 7.87904 4.18276C6.57393 4.12139 5.29717 3.80341 4.13164 3.24947C2.9661 2.69553 1.93784 1.918 1.1136 0.967364C0.693819 1.64486 0.565248 2.44688 0.754066 3.21013C0.942885 3.97337 1.43489 4.64046 2.12992 5.07556C1.60749 5.06121 1.09643 4.92909 0.64 4.69036V4.72936C0.640207 5.4399 0.902567 6.12849 1.38258 6.67834C1.86259 7.2282 2.53071 7.60547 3.2736 7.74616C2.79032 7.86975 2.28325 7.88781 1.79136 7.79896C2.00121 8.41042 2.40962 8.94511 2.95949 9.3283C3.50937 9.71149 4.17322 9.92401 4.85824 9.93616C4.17763 10.4377 3.39821 10.8085 2.56458 11.0274C1.73096 11.2463 0.859476 11.3089 0 11.2118C1.50122 12.1149 3.24795 12.594 5.03168 12.5918" fill="#1E2B70" />
+                                </svg>
+                            </a></li>
+                        <li class="list-inline-item ms-3"><a class="footer__icon" href=""><svg width="30" height="30" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.5 1.35059C9.50391 1.35059 9.74121 1.35937 10.5293 1.39453C11.2617 1.42676 11.6572 1.5498 11.9209 1.65234C12.2695 1.78711 12.5215 1.95117 12.7822 2.21191C13.0459 2.47559 13.207 2.72461 13.3418 3.07324C13.4443 3.33691 13.5674 3.73535 13.5996 4.46484C13.6348 5.25586 13.6436 5.49316 13.6436 7.49414C13.6436 9.49805 13.6348 9.73535 13.5996 10.5234C13.5674 11.2559 13.4443 11.6514 13.3418 11.915C13.207 12.2637 13.043 12.5156 12.7822 12.7764C12.5186 13.04 12.2695 13.2012 11.9209 13.3359C11.6572 13.4385 11.2588 13.5615 10.5293 13.5938C9.73828 13.6289 9.50098 13.6377 7.5 13.6377C5.49609 13.6377 5.25879 13.6289 4.4707 13.5938C3.73828 13.5615 3.34277 13.4385 3.0791 13.3359C2.73047 13.2012 2.47852 13.0371 2.21777 12.7764C1.9541 12.5127 1.79297 12.2637 1.6582 11.915C1.55566 11.6514 1.43262 11.2529 1.40039 10.5234C1.36523 9.73242 1.35645 9.49512 1.35645 7.49414C1.35645 5.49023 1.36523 5.25293 1.40039 4.46484C1.43262 3.73242 1.55566 3.33691 1.6582 3.07324C1.79297 2.72461 1.95703 2.47266 2.21777 2.21191C2.48145 1.94824 2.73047 1.78711 3.0791 1.65234C3.34277 1.5498 3.74121 1.42676 4.4707 1.39453C5.25879 1.35937 5.49609 1.35059 7.5 1.35059ZM7.5 0C5.46387 0 5.20898 0.00878906 4.40918 0.0439453C3.6123 0.0791016 3.06445 0.208008 2.58984 0.392578C2.09473 0.585937 1.67578 0.84082 1.25977 1.25977C0.84082 1.67578 0.585938 2.09473 0.392578 2.58691C0.208008 3.06445 0.0791016 3.60937 0.0439453 4.40625C0.00878906 5.20898 0 5.46387 0 7.5C0 9.53613 0.00878906 9.79102 0.0439453 10.5908C0.0791016 11.3877 0.208008 11.9355 0.392578 12.4102C0.585938 12.9053 0.84082 13.3242 1.25977 13.7402C1.67578 14.1562 2.09473 14.4141 2.58691 14.6045C3.06445 14.7891 3.60938 14.918 4.40625 14.9531C5.20605 14.9883 5.46094 14.9971 7.49707 14.9971C9.5332 14.9971 9.78809 14.9883 10.5879 14.9531C11.3848 14.918 11.9326 14.7891 12.4072 14.6045C12.8994 14.4141 13.3184 14.1562 13.7344 13.7402C14.1504 13.3242 14.4082 12.9053 14.5986 12.4131C14.7832 11.9355 14.9121 11.3906 14.9473 10.5938C14.9824 9.79395 14.9912 9.53906 14.9912 7.50293C14.9912 5.4668 14.9824 5.21191 14.9473 4.41211C14.9121 3.61523 14.7832 3.06738 14.5986 2.59277C14.4141 2.09473 14.1592 1.67578 13.7402 1.25977C13.3242 0.84375 12.9053 0.585938 12.4131 0.395508C11.9355 0.210937 11.3906 0.0820312 10.5938 0.046875C9.79102 0.00878907 9.53613 0 7.5 0Z" fill="#1E2B70" />
+                                    <path d="M7.5 3.64746C5.37305 3.64746 3.64746 5.37305 3.64746 7.5C3.64746 9.62695 5.37305 11.3525 7.5 11.3525C9.62695 11.3525 11.3525 9.62695 11.3525 7.5C11.3525 5.37305 9.62695 3.64746 7.5 3.64746ZM7.5 9.99902C6.12012 9.99902 5.00098 8.87988 5.00098 7.5C5.00098 6.12012 6.12012 5.00098 7.5 5.00098C8.87988 5.00098 9.99902 6.12012 9.99902 7.5C9.99902 8.87988 8.87988 9.99902 7.5 9.99902Z" fill="#1E2B70" />
+                                    <path d="M12.4043 3.49512C12.4043 3.99317 12 4.39453 11.5049 4.39453C11.0068 4.39453 10.6055 3.99024 10.6055 3.49512C10.6055 2.99707 11.0098 2.5957 11.5049 2.5957C12 2.5957 12.4043 3 12.4043 3.49512Z" fill="#1E2B70" />
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright text-center">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">Desarrolado por <strong>Webok3</strong>: Diseño paginas web.</li>
+                    <li class="list-inline-item">Diseño paginas web Tarragona</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </footer> <button onclick="topFunction()" id="goToTop" title="Go to top" class="btn position-fixed end-0 bottom-0"> <i data-eva="arrow-upward" data-eva-height="24" data-eva-width="24"></i>
+    </button>
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>
+        goToTopButton = document.getElementById("goToTop");
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                goToTopButton.style.display = "block";
+            } else {
+                goToTopButton.style.display = "none";
+            }
+        }
+
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        eva.replace()
+    </script>
+
+
+</body>
+
+</html>

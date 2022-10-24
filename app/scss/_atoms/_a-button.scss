@@ -1,0 +1,18 @@
+.btn {
+
+    &-primary {
+        line-height: 1;
+        background: linear-gradient(120deg, $primary 0%, $secondary 100%);
+        transition: 0.3s ease-in;
+        border: none;
+    
+        &:hover {
+            background: linear-gradient(120deg, $secondary 0%, $primary 100%);;
+        }
+    }
+
+    &-up{
+        bottom: 16px;
+        right: 16px;
+    }
+}

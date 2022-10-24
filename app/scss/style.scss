@@ -1,0 +1,79 @@
+@charset 'utf-8';
+
+// ==========================================================================
+// Starter Kit by Peikor
+// A SMACSS-based starter toolkit for SCSS projects
+//
+// The toolkit uses recommendations from Scalable and Modular Architecture for CSS (SMACSS)
+// @link http://smacss.com/book
+//
+// Site:     webOk 3
+// Author:  Francisco Moren López
+// Email:   
+// Date:   28/05/22
+// ==========================================================================
+
+
+// ==========================================================================
+// $Vendor contains 3rd-party styles, pluggin
+// ==========================================================================
+
+
+@import 'customized';
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+// ==========================================================================
+// $Base contains global styles, such as resets, typography, colors, etc.
+// ==========================================================================
+@import '_base/*';
+
+// ==========================================================================
+// $utils mixing, variables, etcb..
+// ==========================================================================
+@import '_utils/*';
+
+// ==========================================================================
+// $Atoms are the basic building blocks. 
+// They can’t be broken down into any smaller components. 
+// ==========================================================================
+@import "_atoms/*";
+
+// ==========================================================================
+// $Molecules the simplest combinations of few atoms you can reuse across
+// the project. For example, forms, navigation and maybe modals.
+// ==========================================================================
+@import "_molecules/**/*";
+
+// ==========================================================================
+// $Organism  are relatively complex UI components that form individual
+// sections of the interface. header, footer and sidebar. 
+// ==========================================================================
+@import "_organisms/**/*";
+
+// ==========================================================================
+// $Templates place previously mentioned components such as atoms, molecules
+// and organisms into a layout. The result is clear and concise structure for
+// the content.
+// ==========================================================================
+@import "_templates/**/*";
+
+// ==========================================================================
+// $Pages. A/B testing. What will users see and also interact with on 
+// production.
+// ==========================================================================
+@import "_pages/**/*";
+
+// ==========================================================================
+// $States Variations thru Events
+// ==========================================================================
+@import "_states/*";
+
+// ==========================================================================
+// $Trumps Attributes supported styles (to set styles for non-supported
+// attributes using Modernizr.js)
+// Browser specific styles (folder for old browsers)
+// Hacks (code to overwritting default styles, to use just when no other option 
+// is available)
+// ==========================================================================
+@import "_trumps/*";

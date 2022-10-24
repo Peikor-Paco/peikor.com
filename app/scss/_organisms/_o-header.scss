@@ -1,0 +1,37 @@
+@include b(header) {
+    font-size: 14px;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 15px;
+    }
+
+
+    .list-inline-item {
+        a {
+            width: 30px;
+            display: block;
+
+            svg {
+                width: 24px;
+                height: 24px;
+            }
+
+        }
+
+        &:last-child() {
+            a {
+
+                @media only screen and (min-width: 768px) {
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    .list-inline-item:not(:last-child) {
+        margin-right: 8px;
+        @media only screen and (min-width: 768px) {
+            margin-right: 16px;
+        }
+    }
+}

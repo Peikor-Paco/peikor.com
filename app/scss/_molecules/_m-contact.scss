@@ -1,0 +1,61 @@
+@include b(contact) {
+
+    margin-top: 30%;
+
+    @media (min-width: 768px) {
+        margin-top: 10%;
+    }
+
+    @include e(title) {
+        font-size: 30px;
+        font-weight: 500;
+
+        @media (min-width: 768px) {
+            font-size: 40px;
+        }
+    }
+
+    @include e(subtitle) {
+        margin-top: 40px;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 1.4;
+
+        @media only screen and (min-width: 768px) {
+            margin-top: 32px;
+            font-size: 1.3rem;
+        }
+    }
+
+    @include e(content) {
+        margin-top: 24px;
+        @media only screen and (min-width: 768px) {
+            margin-top: 24px;
+        }
+    }
+
+    @include e(social) {
+        margin-top: 32px;
+        @media only screen and (min-width: 768px) {
+            margin-top: 56px;
+        }
+
+        svg {
+            width: 24px;
+            @media only screen and (min-width: 768px) {
+                width: 30px;
+            }
+        }
+
+    }
+
+    @include e(link) {
+        font-size: 20px;
+        font-weight: 500;
+
+        @media (min-width: 768px) {
+            font-size: 30px;
+        }
+    }
+}
+ 

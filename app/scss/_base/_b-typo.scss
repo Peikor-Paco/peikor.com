@@ -1,0 +1,82 @@
+h1 {
+    font-size: var(--ht-four);
+    font-weight: 700;
+
+    @media (min-width: 992px) {
+        font-size: var(--ht-three);
+    }
+}
+
+h2 {
+    font-size: var(--ht-five);
+    font-weight: 700;
+    @media (min-width: 992px) {
+        font-size: var(--ht-four);
+    }
+}
+
+h3 {
+    font-size: var(--ht-body-l);
+    font-weight: 700;
+    @media (min-width: 992px) {
+        font-size: var(--ht-five);
+    }
+}
+
+$typos: (9: 9,
+  10: 10,
+  11: 11,
+  12: 12,
+  13: 13,
+  14: 14,
+  15: 15,
+  16: 16,
+  17: 17,
+  18: 18,
+  19: 19,
+  20: 20,
+  21: 21,
+  22: 22,
+  23: 23,
+  24: 24,
+  25: 25,
+  26: 26,
+  27: 27,
+  28: 28,
+  29: 29,
+  40: 40,
+
+);
+
+@each $item,
+$typo in $typos {
+  @each $value in $typo {
+    .fs-#{$item} {
+      font-size: #{$value}px;
+    }
+  }
+}
+
+
+
+.lh-1 {
+  line-height: 1;
+}
+
+.lh-2 {
+  line-height: 1.2;
+}
+
+.lh-3 {
+  line-height: 1.4;
+}
+
+.lh-4 {
+  line-height: 1.6;
+}
+
+.font-weight-semi,
+b,
+strong {
+  font-weight: 500;
+}

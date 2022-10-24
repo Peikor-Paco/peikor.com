@@ -1,0 +1,52 @@
+@include b(logo) {
+    color: #673ab7;
+
+    @media (min-width: 768px) {
+        transition: 0.3s ease-in;
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: #673ab7;
+    }
+
+    @include e(img) {
+        svg {
+            width: 40px;
+            height: auto;
+            @media (min-width: 768px) {
+                width: 70px;
+            }
+        }
+    }
+
+    @include e(title) {
+        font-size: 30px;
+        font-weight: 900;
+
+        @media (min-width: 768px) {
+            font-size: 40px;
+            letter-spacing: 2.5px;
+        }
+
+        &:hover {
+            text-decoration: none;
+            color: #673ab7;
+            
+            @media (min-width: 768px) {
+                background-image: linear-gradient(120deg, #673ab7 0%, #ef3feb 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+
+    @include e(subtitle) {
+        font-size: 0.89rem;
+        font-weight: 400;   
+        color: $secondary; 
+        @media (min-width: 768px) {
+            font-size: 20px;
+        }
+    }
+}

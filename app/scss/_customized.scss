@@ -1,0 +1,69 @@
+:root {
+    --spacing-00: 0;
+    --spacing-01: 2px;
+    --spacing-02: 4px;
+    --spacing-03: 8px;
+    --spacing-04: 16px;
+    --spacing-05: 24px;
+    --spacing-06: 32px;
+    --spacing-07: 40px;
+    --spacing-08: 48px;
+    --spacing-09: 96px;
+    --spacing-10: 192px;
+
+    --ht-body-xs: 13px;
+    --ht-body-s: 14px;
+    --ht-body: 16px;
+    --ht-body-l: 18px;
+
+    --ht-one: 80px;
+    --ht-two: 56px;
+    --ht-three: 48px;
+    --ht-four: 32px;
+    --ht-five: 24px;
+}
+
+$primary: hsla(262, 52%, 47%, 1);
+$secondary:  hsla(301, 85%, 69%, 1);
+$primary-ligth: hsla(236, 84%, 60%, 1);
+$primary-ligther: hsla(224, 76%, 69%, 1);
+
+
+$max-width: 1562px;
+
+/* font family */
+
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-color: $primary;
+$link-color: $primary;
+
+/* border radius */
+
+$border-radius:               4px;
+$border-radius-sm:            8px;
+$border-radius-lg:            10px;
+$border-radius-xl:            12px;
+
+
+/* slider */
+
+$hero-border-radius: $border-radius-sm;
+
+/* btn */
+$btn-border-radius: $border-radius-xl;
+$btn-border-radius: $btn-border-radius;
+$btn-border-radius-sm: $btn-border-radius;
+$btn-border-radius-lg: $btn-border-radius;
+$btn-font-size: 13px;
+$input-btn-padding-y: 14px;
+$input-btn-padding-x: 26px;
+
+
+/* input */
+$input-padding-y: .375rem;
+$input-padding-x: .75rem;
+
+/* cards */
+$card-border-radius: $border-radius-sm;
+$card-bg: $secondary;
+$card-border-color: $secondary;

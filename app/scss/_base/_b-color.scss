@@ -1,0 +1,49 @@
+// Color Palette
+$main: #424242;
+$text: #212529;
+$red: var(--bs-red);
+$white: white;
+$pink: #f36ef0;
+$purple: #673AB7;
+$pink-light: #f36ef0;
+$pink-dark: darken($pink, 10%);
+$purple-light: lighten($purple, 10%);
+
+$Pccolors: (main: $main,
+  text: $text,
+  red: $red,
+  white: $white,
+  pink: $pink,
+  purple: $purple,
+);
+
+@each $item,
+$color in $Pccolors {
+  @each $value in $color {
+    .bg-#{$item} {
+      background-color: $value;
+    }
+  }
+}
+
+@each $item,
+$color in $Pccolors {
+  @each $value in $color {
+    .color-#{$item} {
+      color: $value;
+    }
+  }
+}
+
+@each $item,
+$color in $Pccolors {
+  @each $value in $color {
+    .fill-#{$item} {
+      fill: $value;
+    }
+  }
+}
+
+.bg-purple-gradient {
+  background: linear-gradient(120deg, #673AB7 0%, #f36ef0 100%);
+}

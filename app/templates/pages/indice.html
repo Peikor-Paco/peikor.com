@@ -1,0 +1,46 @@
+{{#extend "layouts/page"}} {{!-- Set the page title --}} {{#content
+"title"}}Content{{/content}} {{#content "css"}} {{/content}} {{!-- Set the page
+content --}} {{#content "content"}}
+
+<div class="container">
+  <div class="content">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Indice de páginas
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <div class="container my-5">
+      <h2>Indice de páginas</h2>
+      <ol>
+        <li>
+          <a href="index.html">INICIO</a>
+        </li>
+        <li>
+          <a href="archive-blog.html">BLOG</a>
+        </li>
+        <li>
+          <a href="post.html">ENTRADA DE BLOG</a>
+        </li>
+        <li>
+          <a href="single-page.html">SINGLE PAGE</a>
+        </li>
+        <li>
+          <a href="typography.html">PAGINA GENERICA</a>
+        </li>
+        <li>
+          <a href="gallery.html">GALERIA</a>
+        </li>
+        <li>
+          <a href="contact.html">CONTACTO</a>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+{{/content}} {{#content "modal"}} {{/content}} {{#content "script"}}
+{{/content}} {{/extend}}

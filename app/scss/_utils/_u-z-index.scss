@@ -1,0 +1,15 @@
+$index: (
+  1: 9,
+  2: 99,
+  3: 999,
+  4: 999,
+);
+
+@each $item,
+$typo in $index {
+  @each $value in $typo {
+    .z-#{$item} {
+      z-index: #{$value};
+    }
+  }
+}
