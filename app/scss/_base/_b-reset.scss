@@ -16,37 +16,11 @@ a {
   flex: none;
 }
 
-.dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 25px;
-}
 .emoji {
   font-family: Segoe UI Emoji;
 }
 .line {
   height: 6px;
-}
-
-
-.plus {
-  height: 60px;
-  width: 60px;
-}
-.plus--xs {
-  height: 30px;
-  width: 30px;
-}
-.square {
-  height: 300px;
-  width: 300px;
-  overflow: hidden;
-}
-.square__inner {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  height: 600px;
-  width: 600px;
 }
 
 .nav-open .nav-button__icon span {
